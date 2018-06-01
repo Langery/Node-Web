@@ -10,6 +10,8 @@ var port = 3000;
 var web = http.createServer(function(req,res){
     
     var pathname = __dirname+url.parse(req.url).pathname;
+    // __dirname: Node文件夹位置
+    // console.log(pathname)
     fs.readFile(pathname,function(err,data){
         // res.end('Hello Node');        
         res.end(data);        
