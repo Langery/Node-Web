@@ -8,3 +8,9 @@
 
 ### 关于web.js文件
 &emsp;在页面中确定访问地址及端口号，通过pathname传递url地址实现也页面内容。
+
+### 关于web界面跳转
+&emsp;直接链入地址:
+```
+  <a href='/new.html'>new</a>
+```
