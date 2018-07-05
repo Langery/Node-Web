@@ -1,5 +1,7 @@
 ## Node-Web
 
+### Learning Note:[NodeJS相关文档](https://www.douban.com/group/topic/35067110/)
+
 ### 关于NodeJS启动web服务
 1. 下载项目内容；
 2. 启动git；
