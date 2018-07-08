@@ -14,6 +14,7 @@ function start(response){
     // var content = "empty";
     // 非阻塞操作: exec()
     // exec("ls-lah",function(error,stdout,stderr){
+    // 设置计时
     exec("find/",
         {timeout:10000,maxBuffer:20000*1024},
         function(error,stdout,stderr){
