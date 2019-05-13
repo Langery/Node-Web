@@ -12,6 +12,10 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
+app.set('port', 4040)
+app.listen(app.get('port'), () => {
+  console.log('success')
+})
 
 app.use(logger('dev'));
 app.use(express.json());

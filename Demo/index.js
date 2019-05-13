@@ -1,5 +1,5 @@
 // 服务
-var server = require("./NewWeb");
+var server = require("./server");
 // 路由
 var router = require("./router");
 

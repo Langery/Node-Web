@@ -1,5 +1,5 @@
 // 参数位置不能更改，会报错
-function route(handle,pathname,response) {
+function route(handle, pathname, response) {
     if(typeof handle[pathname] === 'function'){
         handle[pathname](response);
     } else {
