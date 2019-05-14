@@ -1,8 +1,8 @@
-## Node-Web
+# Node-Web
 
-### Learning Note: [NodeJS相关文档](https://www.douban.com/group/topic/35067110/)
+## Learning Note: [NodeJS相关文档](https://www.douban.com/group/topic/35067110/)
 
-### 关于NodeJS启动web服务
+## 关于NodeJS启动web服务（Demo项目）
 1. 下载项目内容；
 2. 启动git；
 3. 执行 node web.js;
@@ -17,3 +17,14 @@
   <a href='/new.html'>new</a>
 ```
 2.通过`index.js`启动`NewWeb.js`
+
+## Express
+
+&emsp;*注：node项目不支持热插拔（目前是未支持热插拔，后期再查阅相关资料进行修改）*
+
+> 启动
+
+```
+  node app.js
+```
+
