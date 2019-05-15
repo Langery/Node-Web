@@ -29,7 +29,7 @@
 
 > 热更新
 
-&emsp;注：node项目不支持热插拔（~~目前是未支持热插拔，后期再查阅相关资料进行修改~~）
+&emsp;注：node项目不支持热插拔（~~目前是未支持热插拔，后期再查阅相关资料进行修改~~ 已支持）
 ```
   npm install nodemon --save
 ```
@@ -40,3 +40,7 @@
   },
 ```
 &emsp;启动项目`node app.js`
+
+> pug
+
+&emsp;Link: [Pug 中文文档](https://pug.bootcss.com/api/getting-started.html)
