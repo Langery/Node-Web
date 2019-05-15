@@ -44,3 +44,10 @@
 > pug
 
 &emsp;Link: [Pug 中文文档](https://pug.bootcss.com/api/getting-started.html)
+
+> 计划
+
+- [ ] 引入js，调用相关函数
+- [ ] 封装函数，实现函数共用
+- [ ] 优化页面布局，实现简单的页面逻辑交互
+- [ ] 共用`.pug`文件，减少页面加载负荷
