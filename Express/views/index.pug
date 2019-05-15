@@ -1,7 +1,14 @@
 extends layout
 
 block content
+  html
+    head
+      link(rel='stylesheet', href='/stylesheets/style.css')
+      script(src="../public/javascripts/demo.js")
   h1= title
-  p Welcome to #{title}
-  p #{title}
-  span Hi #{title}
+  body
+    p Welcome to #{title}
+    p #{title}
+    span Hi #{title}
+    a#other( href="/other") other
+    a(href="users") users
