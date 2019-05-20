@@ -8,13 +8,18 @@ block content
         script(src="/javascripts/commonFun.js")
   .top-text
     h1= title
+    //- ul.up-text
+    //-   each val in ['other', 'users', 'one']
+    //-     li= val
     ul.up-text
-      each val in ['other', 'users', 'one']
-        li= val
+      li
+        a#other(href="/other") other
+      li
+        a(href="users") users
+      li
+        a(href="one") one
   body
     p Welcome to #{title}
     p #{title}
     span Hi #{title}
-    a#other( href="/other") other
-    a(href="users") users
-    a(href="one") one
+      

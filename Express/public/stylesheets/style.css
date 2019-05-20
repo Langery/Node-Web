@@ -5,7 +5,6 @@ body {
 
 a {
   color: #00B7FF;
-  display: block;
   font-size: 16px;
   margin-top: 10px;
 }
@@ -15,7 +14,6 @@ p {
 }
 
 .top-text{
-  padding-bottom: 5px;
   border-bottom: 1px solid;
 }
 .top-text h1{
@@ -24,7 +22,9 @@ p {
 .up-text{
   list-style-type: none;
   float: right;
+  padding-top: 15px;
 }
-.up-text li {
+.up-text li{
   float: left;
+  margin-left: 10px;
 }
