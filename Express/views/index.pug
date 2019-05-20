@@ -4,7 +4,8 @@ block content
   html
     head
       link(rel='stylesheet', href='/stylesheets/style.css')
-      script(src="../public/javascripts/demo.js")
+      block script
+        script(src="/javascripts/commonFun.js")
   h1= title
   body
     p Welcome to #{title}
@@ -12,3 +13,4 @@ block content
     span Hi #{title}
     a#other( href="/other") other
     a(href="users") users
+    a(href="one") one
