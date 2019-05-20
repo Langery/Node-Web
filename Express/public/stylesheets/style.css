@@ -13,3 +13,18 @@ a {
 p {
   font-size: 18px;
 }
+
+.top-text{
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+}
+.top-text h1{
+  display: inline-block;
+}
+.up-text{
+  list-style-type: none;
+  float: right;
+}
+.up-text li {
+  float: left;
+}

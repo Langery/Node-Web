@@ -6,7 +6,11 @@ block content
       link(rel='stylesheet', href='/stylesheets/style.css')
       block script
         script(src="/javascripts/commonFun.js")
-  h1= title
+  .top-text
+    h1= title
+    ul.up-text
+      each val in ['other', 'users', 'one']
+        li= val
   body
     p Welcome to #{title}
     p #{title}
