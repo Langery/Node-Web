@@ -6,7 +6,7 @@ router
   .get('/', (req, res, next) => {
     // res.send('Hello Express!')
     // set HTTP status code number
-    res.status(200).render('index', { title: 'Express' });
+    res.status(200).render('index', { title: 'Express', message: 'I am Langery' });
   })
   .get('/other', (req, res, next) => {
     // res.send('respond with a resource');
