@@ -59,6 +59,7 @@
 ### 其他
 &emsp;更新依赖包
 ```
-  npm update -S
-  npm update -D
+  git checkout package-lock.json
+  rm -rf node_modules
+  npm install 
 ```
