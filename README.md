@@ -59,7 +59,5 @@
 ### 其他
 &emsp;更新依赖包
 ```
-  git checkout package-lock.json
-  rm -rf node_modules
-  npm install 
+  npm install xxx@yy
 ```
