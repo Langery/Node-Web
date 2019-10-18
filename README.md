@@ -14,7 +14,7 @@
 
 ### 关于web界面跳转
 1.直接链入地址:
-```
+``` html
   <a href='/new.html'>new</a>
 ```
 2.通过`index.js`启动`NewWeb.js`
@@ -23,18 +23,18 @@
 
 ### 启用
 
-```
+``` bash
   node app.js
 ```
 
 ### 热更新
 
 &emsp;注：node项目不支持热插拔（~~目前是未支持热插拔，后期再查阅相关资料进行修改~~ 已支持）
-```
+``` bash
   npm install nodemon --save
 ```
 &emsp;修改package.json
-```
+``` json
   "scripts": {
     "start": "nodemon ./bin/www"
   },
@@ -58,6 +58,6 @@
 
 ### 其他
 &emsp;更新依赖包
-```
+``` bash
   npm install xxx@yy
 ```

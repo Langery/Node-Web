@@ -1,0 +1,16 @@
+{
+  "name": "Koa",
+  "version": "1.0.0",
+  "description": "> Link：[Koa 官网](https://koa.bootcss.com/)",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.10.0"
+  }
+}
