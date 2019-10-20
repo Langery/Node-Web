@@ -10,7 +10,9 @@ const loggerAsync = require('./middleware/logger-async')
 app.use(loggerAsync())
 
 app.use(async(ctx) => {
-  ctx.body = 'hello koa2'
+  let url = ctx.request.url
+  ctx.body = url
+  // ctx.body = 'hello koa2'
 })
 
 // 服务器端口号：3000
