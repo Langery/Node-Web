@@ -23,14 +23,14 @@
 
 ### 启用
 
-``` bash
+``` javascript
   node app.js
 ```
 
 ### 热更新
 
 &emsp;注：node项目不支持热插拔（~~目前是未支持热插拔，后期再查阅相关资料进行修改~~ 已支持）
-``` bash
+``` javascript
   npm install nodemon --save
 ```
 &emsp;修改package.json
@@ -58,6 +58,14 @@
 
 ### 其他
 &emsp;更新依赖包
-``` bash
+``` javascript
   npm install xxx@yy
+```
+
+## Koa
+
+### 启用
+
+``` javascript
+  node app.js
 ```
