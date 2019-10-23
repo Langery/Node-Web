@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.10.0"
+    "koa": "^2.10.0",
+    "koa-router": "^7.4.0"
   },
   "devDependencies": {
     "koa-convert": "^1.2.0"
