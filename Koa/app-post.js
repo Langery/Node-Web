@@ -1,10 +1,13 @@
 const Koa = require('koa')
 const app = new Koa()
 
+const bodyParser = require('koa-bodyparser')
+
+app.use(bodyParser())
+
 app.use( async ( ctx ) => {
 
   if ( ctx.url === '/' && ctx.method === 'GET' ) {
-    // 当GET请求时候返回表单页面
     let html = `
       <h1>koa2 request post demo</h1>
       <form method="POST" action="/">
@@ -19,16 +22,15 @@ app.use( async ( ctx ) => {
     `
     ctx.body = html
   } else if ( ctx.url === '/' && ctx.method === 'POST' ) {
-    // 当POST请求的时候，解析POST表单里的数据，并显示出来
-    let postData = await parsePostData( ctx )
+    // let postData = await parsePostData( ctx )
+    let postData = ctx.request.body
     ctx.body = postData
   } else {
-    // 其他请求显示404
     ctx.body = '<h1>404！！！ o(╯□╰)o</h1>'
   }
 })
 
-// 解析上下文里node原生请求的POST参数
+
 function parsePostData( ctx ) {
   return new Promise((resolve, reject) => {
     try {
@@ -46,7 +48,7 @@ function parsePostData( ctx ) {
   })
 }
 
-// 将POST请求参数字符串解析成JSON
+
 function parseQueryStr( queryStr ) {
   let queryData = {}
   let queryStrList = queryStr.split('&')
