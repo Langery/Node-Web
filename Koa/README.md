@@ -15,3 +15,7 @@
 
 - [ ] view 文件夹内未有指定文件
 - [x] 待续...
+
+> finished
+
+- [x] index.ejs
