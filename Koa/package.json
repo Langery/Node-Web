@@ -18,6 +18,9 @@
     "koa-views": "^6.3.0"
   },
   "devDependencies": {
-    "koa-convert": "^1.2.0"
+    "chai": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "mocha": "^8.1.0",
+    "supertest": "^4.0.2"
   }
 }
