@@ -5,7 +5,7 @@
 ## 关于NodeJS启动web服务（Demo项目）
 
 1. 下载项目内容；
-2. 启动git；
+2. 启动 git；
 3. 执行 node web.js;
 4. 页面输入 127.0.0.1:3000/text.html
 
