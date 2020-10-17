@@ -7,7 +7,7 @@
 1. 下载项目内容；
 2. 启动 git；
 3. 执行 node web.js;
-4. 页面输入 127.0.0.1:3000/text.html
+4. 页面输入 127.0.0.1:3000/view/text.html
 
 ### 关于web.js文件
 &emsp;在页面中确定访问地址及端口号，通过pathname传递url地址实现也页面内容。
