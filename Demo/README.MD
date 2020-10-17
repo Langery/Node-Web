@@ -7,6 +7,7 @@
 1. Web
 ``` javascript
   $ node web.js // 127.0.0.1:3000
+  // 127.0.0.1:3000/view/text.html
 ```
 2. index
 ``` javascript
