@@ -9,7 +9,7 @@
   $ node web.js // 127.0.0.1:3000
   // 127.0.0.1:3000/view/text.html
 ```
-2. index
+2. Index
 ``` javascript
   $ node index.js // localhost:8888
 ```
