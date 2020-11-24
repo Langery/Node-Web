@@ -4,6 +4,7 @@
 
 ``` javascript
   node app.js
+  // http://localhost:4040
 ```
 
 ### 热更新
